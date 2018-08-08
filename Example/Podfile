@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SmartButton_Tests' do
+  pod 'SmartButton', :path => '../'
+  
+  
+end
