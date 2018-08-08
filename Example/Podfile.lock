@@ -1,0 +1,16 @@
+PODS:
+  - SmartButton (0.1.0)
+
+DEPENDENCIES:
+  - SmartButton (from `../`)
+
+EXTERNAL SOURCES:
+  SmartButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmartButton: 6df1fd9d94df43d42358c6e22e71d43e5d33974b
+
+PODFILE CHECKSUM: 09e79ed7056f454f714c126628cc99937f9dcc23
+
+COCOAPODS: 1.5.3

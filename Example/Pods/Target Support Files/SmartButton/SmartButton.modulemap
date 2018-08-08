@@ -1,0 +1,6 @@
+framework module SmartButton {
+  umbrella header "SmartButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
