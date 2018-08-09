@@ -12,7 +12,6 @@
 		6A60CD40C70E4A11A8178624AB586F27 /* Pods-SmartButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16A59F219925055215AD5D5B5B609D /* Pods-SmartButton_Tests-dummy.m */; };
 		7B89439EACB50FA76A43B0FC12555B96 /* SmartButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C41837F48E3114CCD20A2047231218E /* SmartButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFBD304305411A84DE467D22FC6EFF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E4C0FD5112C7B88E6D1043CEFA163F2B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F5DC923974E65FB072EE0DABC60333 /* ReplaceMe.m */; };
 		EB2A53A0118E23C4DDB24BED50726FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,27 +28,26 @@
 /* Begin PBXFileReference section */
 		0C41837F48E3114CCD20A2047231218E /* SmartButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartButton-umbrella.h"; sourceTree = "<group>"; };
 		114B80C32D03BFAE30052EB14D1EFC54 /* Pods-SmartButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		28C1B922239670F26C41B51AE2B4521B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		28C1B922239670F26C41B51AE2B4521B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		296C9ACB053399AB5096BF0862FF7742 /* Pods-SmartButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		333E957DA2C3932E42AEA2B18EEFE59A /* Pods-SmartButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		38F5DC923974E65FB072EE0DABC60333 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SmartButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3F1CFF3D248E571887F5B00203093259 /* Pods-SmartButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartButton_Tests.modulemap"; sourceTree = "<group>"; };
 		48E48D74E891524AAF04FAC42641CFE4 /* Pods-SmartButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D16A59F219925055215AD5D5B5B609D /* Pods-SmartButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		7F94F7F059139E7A58B685E53AA411E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		816F03B27D8817D753057AE95C98D034 /* SmartButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartButton.framework; path = SmartButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E81913D70DE6BFCC9458A730E635CC8 /* SmartButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SmartButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		816F03B27D8817D753057AE95C98D034 /* SmartButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E81913D70DE6BFCC9458A730E635CC8 /* SmartButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SmartButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9249A6C103FE220AE2ACC2B6E85865B3 /* SmartButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmartButton.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A35FEBBC99A53D3B0FAF2108BD3B7DC /* Pods_SmartButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartButton_Tests.framework; path = "Pods-SmartButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A35FEBBC99A53D3B0FAF2108BD3B7DC /* Pods_SmartButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3B22D509177ABC97329841B34B1A8F /* SmartButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartButton.xcconfig; sourceTree = "<group>"; };
 		C133B6AEF83E2F2F00BD63831E03F811 /* Pods-SmartButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CCF7CB66FD3EA69FC5B898E2BF6010D4 /* Pods-SmartButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CD8427C87522075007EED5B9230C6D4A /* Pods-SmartButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		D6055B70CE734BE645C42EBEBA156A71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F31FA3517D15391DBEE70D4B3B1D4B8E /* SmartButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartButton-dummy.m"; sourceTree = "<group>"; };
-		F45AD90094DE07C4E9DDCD1FBB1469E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F45AD90094DE07C4E9DDCD1FBB1469E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9F515AD69876C3F0FC1E9A853BC9BD6 /* SmartButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartButton-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +116,6 @@
 		88FB652B14DB42D7E5517F8F459A9A28 /* SmartButton */ = {
 			isa = PBXGroup;
 			children = (
-				38F5DC923974E65FB072EE0DABC60333 /* ReplaceMe.m */,
 				E9546A17295AAD1CBDFFF97B35364810 /* Pod */,
 				4F53D20A22ECC9D1F8547F2EED5194DC /* Support Files */,
 			);
@@ -267,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C0FD5112C7B88E6D1043CEFA163F2B /* ReplaceMe.m in Sources */,
 				428D0AC7605E6129D0BD894449876D9F /* SmartButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
