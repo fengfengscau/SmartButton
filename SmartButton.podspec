@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartButton'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'SmartButton  is a collection of iOS button components.'
 
 # This description is used to generate tags and improve search results.

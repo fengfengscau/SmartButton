@@ -6,80 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		06997FA4110DF1FD2CADE641AD6AFD33 /* UIButton+ImageLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C0888DBF4F527014A445139753B85D95 /* UIButton+ImageLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E4F89EECC5784D71270164EFF5349C1 /* Pods-SmartButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C133B6AEF83E2F2F00BD63831E03F811 /* Pods-SmartButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C6428B6769F2778E614BF258A09FF19 /* SmartButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F113D5BC393ED1568A938193FE665A57 /* SmartButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A60CD40C70E4A11A8178624AB586F27 /* Pods-SmartButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16A59F219925055215AD5D5B5B609D /* Pods-SmartButton_Tests-dummy.m */; };
-		BFBD304305411A84DE467D22FC6EFF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CFC7C00A2A9374D156626813954DD614 /* UIButton+ImageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9612CEE1723F22B761557FD860A82ED2 /* UIButton+ImageLayout.m */; };
-		EB2A53A0118E23C4DDB24BED50726FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F4222679928EBE81230A547B06546791 /* SmartButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD246B42CF3B10F18A8FAE64F8F002A8 /* SmartButton-dummy.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2CA6F2F92CC7111A7C3F242058E37F4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6CF378E32840D73F78BC2207D60788F1;
-			remoteInfo = SmartButton;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		109FDEE244BED9D8E69C737222DB077C /* SmartButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SmartButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		109FDEE244BED9D8E69C737222DB077C /* SmartButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SmartButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		114B80C32D03BFAE30052EB14D1EFC54 /* Pods-SmartButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2875D5595E7052FDEF84A19BBAA0D294 /* SmartButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartButton.xcconfig; sourceTree = "<group>"; };
 		296C9ACB053399AB5096BF0862FF7742 /* Pods-SmartButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		333E957DA2C3932E42AEA2B18EEFE59A /* Pods-SmartButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3F1CFF3D248E571887F5B00203093259 /* Pods-SmartButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartButton_Tests.modulemap"; sourceTree = "<group>"; };
 		48E48D74E891524AAF04FAC42641CFE4 /* Pods-SmartButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		59A90DB6C59BBFEA6AAA95D50521B439 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59A90DB6C59BBFEA6AAA95D50521B439 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D16A59F219925055215AD5D5B5B609D /* Pods-SmartButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		816F03B27D8817D753057AE95C98D034 /* SmartButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartButton.framework; path = SmartButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C325410599A40C606F9FD3F661F310 /* SmartButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmartButton.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9612CEE1723F22B761557FD860A82ED2 /* UIButton+ImageLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ImageLayout.m"; path = "SmartButton/Classes/UIButton+ImageLayout.m"; sourceTree = "<group>"; };
-		9A35FEBBC99A53D3B0FAF2108BD3B7DC /* Pods_SmartButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartButton_Tests.framework; path = "Pods-SmartButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0888DBF4F527014A445139753B85D95 /* UIButton+ImageLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+ImageLayout.h"; path = "SmartButton/Classes/UIButton+ImageLayout.h"; sourceTree = "<group>"; };
 		C133B6AEF83E2F2F00BD63831E03F811 /* Pods-SmartButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CCF7CB66FD3EA69FC5B898E2BF6010D4 /* Pods-SmartButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CD246B42CF3B10F18A8FAE64F8F002A8 /* SmartButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartButton-dummy.m"; sourceTree = "<group>"; };
 		CD8427C87522075007EED5B9230C6D4A /* Pods-SmartButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		CE7FA65CA88949EB898088E957BCC4AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CE7FA65CA88949EB898088E957BCC4AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D3F4D66F18670E492B8A93FEF90547BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6055B70CE734BE645C42EBEBA156A71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF0017EFA54AF79E57E9380B85B2EB9E /* SmartButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartButton-prefix.pch"; sourceTree = "<group>"; };
 		F113D5BC393ED1568A938193FE665A57 /* SmartButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartButton-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		BE8AD0EA0849DA9849244E2C677123E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB2A53A0118E23C4DDB24BED50726FF1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F11E9D12D102E8634ED85038D15A3B36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFBD304305411A84DE467D22FC6EFF59 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		0CBD341528671FC97418A75E1410C3BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A35FEBBC99A53D3B0FAF2108BD3B7DC /* Pods_SmartButton_Tests.framework */,
-				816F03B27D8817D753057AE95C98D034 /* SmartButton.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,64 +139,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		AE0CDCA094037BDACC9A31AA7A35317A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E4F89EECC5784D71270164EFF5349C1 /* Pods-SmartButton_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C69C0753287D70FCDA1D3FAF3EE016B9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C6428B6769F2778E614BF258A09FF19 /* SmartButton-umbrella.h in Headers */,
-				06997FA4110DF1FD2CADE641AD6AFD33 /* UIButton+ImageLayout.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		3A9F4FFDB4A7D3858FDA8F98516DDC30 /* Pods-SmartButton_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F58FF43E1CCF49AF90226C0CA188844B /* Build configuration list for PBXNativeTarget "Pods-SmartButton_Tests" */;
-			buildPhases = (
-				CECE892B3271EB248C2F579218B8BFB8 /* Sources */,
-				BE8AD0EA0849DA9849244E2C677123E1 /* Frameworks */,
-				AE0CDCA094037BDACC9A31AA7A35317A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA42408A7B260907F86493A110042942 /* PBXTargetDependency */,
-			);
-			name = "Pods-SmartButton_Tests";
-			productName = "Pods-SmartButton_Tests";
-			productReference = 9A35FEBBC99A53D3B0FAF2108BD3B7DC /* Pods_SmartButton_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6CF378E32840D73F78BC2207D60788F1 /* SmartButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B8AFB39CE54601B4B060E81765449956 /* Build configuration list for PBXNativeTarget "SmartButton" */;
-			buildPhases = (
-				9FA8086CC5D5683D081F77A26CC8BCF9 /* Sources */,
-				F11E9D12D102E8634ED85038D15A3B36 /* Frameworks */,
-				C69C0753287D70FCDA1D3FAF3EE016B9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SmartButton;
-			productName = SmartButton;
-			productReference = 816F03B27D8817D753057AE95C98D034 /* SmartButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
@@ -260,40 +158,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A9F4FFDB4A7D3858FDA8F98516DDC30 /* Pods-SmartButton_Tests */,
-				6CF378E32840D73F78BC2207D60788F1 /* SmartButton */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		9FA8086CC5D5683D081F77A26CC8BCF9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4222679928EBE81230A547B06546791 /* SmartButton-dummy.m in Sources */,
-				CFC7C00A2A9374D156626813954DD614 /* UIButton+ImageLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CECE892B3271EB248C2F579218B8BFB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A60CD40C70E4A11A8178624AB586F27 /* Pods-SmartButton_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA42408A7B260907F86493A110042942 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SmartButton;
-			target = 6CF378E32840D73F78BC2207D60788F1 /* SmartButton */;
-			targetProxy = 2CA6F2F92CC7111A7C3F242058E37F4B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
@@ -358,134 +225,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		9352BD71756F84BD4F78B36CE181A39D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 114B80C32D03BFAE30052EB14D1EFC54 /* Pods-SmartButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SmartButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SmartButton_Tests/Pods-SmartButton_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AF92B72E222A2C1CB6E90510016E871D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2875D5595E7052FDEF84A19BBAA0D294 /* SmartButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SmartButton/SmartButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SmartButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SmartButton/SmartButton.modulemap";
-				PRODUCT_MODULE_NAME = SmartButton;
-				PRODUCT_NAME = SmartButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C84C3DFA9EA1709281D8E15A71A66513 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2875D5595E7052FDEF84A19BBAA0D294 /* SmartButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SmartButton/SmartButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SmartButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SmartButton/SmartButton.modulemap";
-				PRODUCT_MODULE_NAME = SmartButton;
-				PRODUCT_NAME = SmartButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E2EC39381E572A6DC14037735F2A2C16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 296C9ACB053399AB5096BF0862FF7742 /* Pods-SmartButton_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SmartButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SmartButton_Tests/Pods-SmartButton_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -553,24 +292,6 @@
 			buildConfigurations = (
 				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
 				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B8AFB39CE54601B4B060E81765449956 /* Build configuration list for PBXNativeTarget "SmartButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C84C3DFA9EA1709281D8E15A71A66513 /* Debug */,
-				AF92B72E222A2C1CB6E90510016E871D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F58FF43E1CCF49AF90226C0CA188844B /* Build configuration list for PBXNativeTarget "Pods-SmartButton_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9352BD71756F84BD4F78B36CE181A39D /* Debug */,
-				E2EC39381E572A6DC14037735F2A2C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
