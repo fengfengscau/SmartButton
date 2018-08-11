@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartButton'
-  s.version          = '0.1.0'
+  s.version          = '0.4.0'
   s.summary          = 'SmartButton  is a collection of iOS button components.'
 
 # This description is used to generate tags and improve search results.
@@ -18,9 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+    SmartButton  is a collection of iOS button components. 
+    You can use for free.
+                         DESC
+ 
   s.homepage         = 'https://github.com/fengfengscau/SmartButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

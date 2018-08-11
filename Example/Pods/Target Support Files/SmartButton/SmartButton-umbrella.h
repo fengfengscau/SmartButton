@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIButton+ImageLayout.h"
 
 FOUNDATION_EXPORT double SmartButtonVersionNumber;
 FOUNDATION_EXPORT const unsigned char SmartButtonVersionString[];

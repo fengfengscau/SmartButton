@@ -1,5 +1,5 @@
 PODS:
-  - SmartButton (0.1.0)
+  - SmartButton (0.3.0)
 
 DEPENDENCIES:
   - SmartButton (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SmartButton: 6df1fd9d94df43d42358c6e22e71d43e5d33974b
+  SmartButton: 36b5bfea878582f049a17f077c06251d90fd23e3
 
 PODFILE CHECKSUM: 09e79ed7056f454f714c126628cc99937f9dcc23
 
